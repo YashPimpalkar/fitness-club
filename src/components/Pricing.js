@@ -30,7 +30,7 @@ const tiers = [
       'Open gym time',
       'Fitness website included'
     ],
-    buttonText: 'Join Now',
+    buttonText: 'JOIN NOW',
     buttonVariant: 'outlined',
   },
   {
@@ -55,7 +55,7 @@ const tiers = [
       '4 Free personal trainer sessions/member',
       'Fitness Website Included'
     ],
-    buttonText: 'Join with Group',
+    buttonText: 'JOIN NOW',
     buttonVariant: 'outlined',
   },
 ];
