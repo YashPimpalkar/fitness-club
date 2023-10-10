@@ -10,7 +10,11 @@ import { signOut } from 'firebase/auth';
 
 
 
+
+
 function ResponsiveAppBar() {
+
+
 
   const user=JSON.parse(localStorage.getItem('user'));
   const navigate =useNavigate();
@@ -56,13 +60,49 @@ function ResponsiveAppBar() {
           onClose={handleCloseNavMenu}
         >
           <MenuItem>
-            <Link to="/">Home</Link>
+          <Box 
+          component={Link} 
+          to="/" 
+          sx={{
+            textDecoration: 'none', 
+            color: 'inherit',
+            '&:hover': {
+              color: 'red',
+            }
+          }}
+        >
+          Home
+        </Box>
           </MenuItem>
           <MenuItem>
-            <a href="#exercises">Exercises</a>
+          <Box 
+          component="a" 
+          href="#exercises" 
+          sx={{
+            textDecoration: 'none', 
+            color: 'inherit',
+            '&:hover': {
+              color: 'red',
+            }
+          }}
+        >
+          Exercises
+        </Box>
           </MenuItem>
           <MenuItem>
-            <Link to="/pricing">Pricing</Link>
+          <Box 
+          component={Link} 
+          to="/pricing" 
+          sx={{
+            textDecoration: 'none', 
+            color: 'inherit',
+            '&:hover': {
+              color: 'red',
+            }
+          }}
+        >
+          Pricing
+        </Box>
           </MenuItem>
           <MenuItem>
             {user && user.email}
