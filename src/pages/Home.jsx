@@ -9,7 +9,7 @@ import SearchExercises from '../components/SearchExercises';
 import HeroBanner from '../components/HeroBanner';
 import Pricing from '../components/Pricing';
 import Navbar from '../components/Navbar';
-import Navbar2 from '../components/Navbar2';
+
 
 const Home = () => {
   const user = JSON.parse(localStorage.getItem('user'));
