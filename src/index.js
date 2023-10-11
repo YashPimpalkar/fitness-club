@@ -16,6 +16,7 @@ const router =createBrowserRouter(
       <Route path='login' element={<Login />} />
       <Route path='/'  element={<Protected />} >
       <Route path='/'index element={<Home />} />
+  <Route path='/' element={<Home />} />
       <Route path="/exercise/:id" element={<ExerciseDetail />} />
       <Route path="/pricing/" element={<Pricing />} />
       </Route>
