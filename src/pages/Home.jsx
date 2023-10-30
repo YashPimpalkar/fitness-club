@@ -30,7 +30,7 @@ const Home = () => {
   return (
     <div>
       <div>
-        <Box width="400px" sx={{ width: { xl: '1488px' } }} m="auto">
+        <Box width="400px" color="#fffafb" sx={{ width: { xl: '1488px' } }} m="auto">
           <Navbar />
           <HeroBanner />
           <SearchExercises setExercises={setExercises} bodyPart={bodyPart} setBodyPart={setBodyPart} />
