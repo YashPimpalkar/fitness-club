@@ -134,7 +134,7 @@ export default function Pricing() {
                      ₹{tier.price}
                     </Typography>
                     <Typography variant="h6" color="text.secondary">
-                      // /mo
+                   
                     </Typography>
                   </Box>
                   <ul>
