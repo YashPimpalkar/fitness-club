@@ -22,8 +22,8 @@ import Container from '@mui/material/Container';
 
 const tiers = [
   {
-    title: 'Basic',
-    price: '200',
+    title: 'Monthly',
+    price: '1,500',
     description: [
       'Access to gym equipment',
       'Locker facilities',
@@ -34,9 +34,9 @@ const tiers = [
     buttonVariant: 'outlined',
   },
   {
-    title: 'Premium',
+    title: '3 Month',
     subheader: 'Most popular',
-    price: '400',
+    price: '4,000',
     description: [
       'Access to 20 gym Equipment',
       'Fitness classes included',
@@ -47,8 +47,8 @@ const tiers = [
     buttonVariant: 'contained',
   },
   {
-    title: 'Super',
-    price: '700',
+    title: 'Yearly',
+    price: '10,000',
     description: [
       'Access to Full gym Equipment',
       'Fitness Classes Included',
